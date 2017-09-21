@@ -1,0 +1,38 @@
+{
+  "name": "backendoficina",
+  "version": "1.0.0",
+  "description": "Backend sistema Oficina",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name oficina"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlameira/backendOficina.git"
+  },
+  "keywords": [
+    "Node",
+    "Mongo"
+  ],
+  "author": "Jonathan Lameira (jlameira@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlameira/backendOficina/issues"
+  },
+  "homepage": "https://github.com/jlameira/backendOficina#readme",
+  "devDependencies": {
+    "body-parser": "^1.18.1",
+    "connect-mongo": "^1.3.2",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "mongoose": "^4.11.12",
+    "node-restful": "^0.2.6",
+    "nodemon": "^1.12.1",
+    "pm2": "^2.7.0"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "jsonwebtoken": "^7.3.0"
+  }
+}
