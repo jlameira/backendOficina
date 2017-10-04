@@ -5,7 +5,8 @@
   "main": "src/loader.js",
   "scripts": {
     "dev": "nodemon",
-    "production": "pm2 start src/loader.js --name oficina"
+    "production": "pm2 start src/loader.js --name oficina",
+    "start": "node src/loader.js"
   },
   "repository": {
     "type": "git",
